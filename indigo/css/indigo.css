@@ -1,2 +1,197 @@
 @charset "utf-8";
  
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+/*====== header =====*/
+header nav {
+    display: none;
+    width: 100%;
+}
+
+/* gnb */
+header h1 {
+    margin: 10px 0 10px 10px;
+    color: rgb(35, 35, 179);
+}
+
+.border01 > span {
+    position: absolute;
+    top: 18px; right: 10px;
+    width: 30px; height: 2px;
+    background-color: rgb(35, 35, 179);
+}
+
+.border01 > span:nth-child(2) {
+    top: 28px;
+}
+
+.border01 > span:nth-child(3) {
+    top: 38px;
+}
+
+.gnb {
+    display: flex;
+    flex-direction: column;
+}
+
+.gnb > li {
+    width: 100%;
+    background-color: rgb(35, 35, 179);
+}
+
+.gnb > li > a {
+    text-align: left;
+    color: white;
+    padding: 10px 20px ;
+    border-top: 1px solid rgba(0, 0, 94,0.2);
+}
+
+/*====== main =====*/
+
+/* slide */
+main .slide > img {
+    width: 100%;
+}
+
+/* section .we */
+.we h2 {
+    text-align: center;
+}
+
+.we-text {
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+/* section .promotion */
+.p-flex-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.p-flex-box > div {
+    text-align: center;
+    margin-bottom: 50px
+}
+
+.p-flex-box > div > img {
+    width: 70px;
+}
+
+.p-flex-box > div > h3 {
+    color: rgb(35, 35, 179);
+    margin: 25px 0;
+}
+
+.p-flex-box > .p-blog {
+    padding-bottom: 100px;
+    border-bottom: 2px solid rgba(179, 178, 178,0.3);
+}
+
+/* section .work */
+.w-flex-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.w-flex-box > div {
+    width: 100%;
+}
+
+.w-flex-box > div > img {
+    margin-top: -4px;
+    width: 100%;
+}
+
+.w-flex-box >div:last-child > img {
+    padding-bottom: 80px;
+
+}
+
+/* section .blog */
+.blog {
+    position: relative;
+}
+
+.border02 {
+    padding-bottom: 10px;
+    padding-right: 15px;
+    text-align: center;
+}
+
+.border02 > span {
+    position: absolute;
+    width: 25px; height: 2px;
+    background-color: rgb(35, 35, 179);
+}
+
+.b-flex-box {
+    width: 90%;
+}
+
+.b-flex-box > div {
+    margin-left: 10%;
+}
+
+.b-flex-box > div > img {
+    width: 100%;
+}
+
+.b-flex-box > div  p,
+.b-flex-box > div  strong {
+    text-align: justify;
+}
+
+.b-flex-box > div  p {
+    color: #ccc;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.b-flex-box > div  strong {
+    color: rgb(90, 90, 90);
+    font-weight: normal;
+}
+
+/* section .contact */
+.contact fieldset {
+    border: 0;
+}
+.contact legend {
+    display: none;
+}
+
+.contact label {
+    font-size: 0;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    font: 16px '맑은고딕';
+    color: rgb(35, 35, 179);
+    border: 0;
+    border-bottom: 1px solid #ccc; 
+    padding-bottom: 10px;
+}
+
+.bnt {
+    text-align: right;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+.bnt button {
+    width: 130px;
+    height: 40px;
+    border: 0;
+    color: white;
+    background-color: rgb(35, 35, 179);
+}
+

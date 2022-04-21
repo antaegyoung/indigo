@@ -24,14 +24,21 @@ a {
 
 h1 {
     font-size: 26px;
+    font-weight: normal;
 }
 
 h2 {
-    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+    color: rgb(35, 35, 179);
 }
 
 h3 {
     font-size: 18px;
+    font-weight: normal;
 }
 
 p {
@@ -46,4 +53,14 @@ article,
 section,
 footer {
     display: block;
+}
+
+input,
+textarea {
+    font: 16px '맑은고딕';
+    color: rgb(35, 35, 179);
+}
+
+::-webkit-input-placeholder {
+    color: rgb(35, 35, 179);
 }
