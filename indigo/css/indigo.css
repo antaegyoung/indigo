@@ -15,8 +15,8 @@ header {
 }
 
 header nav {
-    display: none;
     width: 100%;
+    display: none;
 }
 
 /* gnb */
@@ -25,18 +25,19 @@ header h1 {
     color: rgb(35, 35, 179);
 }
 
-.border01 > span {
+
+.border01  span {
     position: absolute;
     top: 18px; right: 10px;
     width: 30px; height: 2px;
     background-color: rgb(35, 35, 179);
 }
 
-.border01 > span:nth-child(2) {
+.border01  span:nth-child(2) {
     top: 28px;
 }
 
-.border01 > span:nth-child(3) {
+.border01  span:nth-child(3) {
     top: 38px;
 }
 
@@ -46,16 +47,27 @@ header h1 {
 }
 
 .gnb > li {
+    z-index: 1;
     width: 100%;
     background-color: rgb(35, 35, 179);
 }
 
 .gnb > li > a {
-    display: inline-block;
+    display: block;
     text-align: left;
     color: white;
     padding: 10px 20px ;
     border-top: 1px solid rgba(0, 0, 94,0.2);
+}
+
+.gnb{
+    width: 100%; height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s
+}
+
+.gnb:hover{
+    opacity: 1;
 }
 
 /*====== main =====*/
