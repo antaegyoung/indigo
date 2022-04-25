@@ -423,6 +423,14 @@ main .slide > img {
         border-left: 2px solid #ccc;
     }
 
+    .border04 {
+        margin-left: 49%;
+        margin-top: 50px;
+        width: 20px; height: 2px;
+        background-color: rgb(35, 35, 179);
+    }
+
+
     /* section .promotion */
     .p-flex-box {
         border-bottom: 2px solid #ccc;
@@ -465,13 +473,13 @@ main .slide > img {
     
     .c-txt01,
     .contact textarea {
-        width: 35%;
+        width: 33%;
     }
     
     
     .c-txt01 {
         position: absolute;
-        top: 0; right: 450px;
+        top: 0; right: 38%;
     }
     
     .contact input {
